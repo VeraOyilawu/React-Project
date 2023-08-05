@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.loginMain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #f9f4f4;
+    justify-content: center;
+    align-items: center;
+}
+#section {
+    height: 90%;
+    width: 45%;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+}
+.login{
+    height: 100%;
+    width: 70%;   
+}
+.logCon{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 60px;
+}
+.inputs{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs input{
+    height: 60%;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid gray;
+}
+.inputPassword{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.inputPassword input{
+    height: 60%;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid gray;
+}
+.passwordIcon{
+    height: 60%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid gray;
+
+}
+.forgPassword{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginButton{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBut{
+    height: 40%;
+    width: 60%;
+    cursor: pointer;
+    background-color:  rgb(57, 243, 57);
+    border-radius: 50px;
+}
+
+.LoginParagh{
+    font-size: 15px;
+}
